@@ -1,0 +1,22 @@
+<table class="table thead-dark">
+  <thead class="table-dark">
+    <tr>
+      <th scope="col">Character name</th>
+      <th scope="col">Gender</th>
+      <th scope="col">Episode</th>
+      <th scope="col">Origin</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr *ngFor="let tempCharacter of characters">
+      <td>{{ tempCharacter.characterName }}</td>
+      <td>gender</td>
+      <td>episode</td>
+      <td>origin</td>
+    </tr>
+  </tbody>
+</table>
+
+
+

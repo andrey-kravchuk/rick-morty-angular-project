@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'rick-morty-angular-project';
+  title = 'Rick & Morty application';
+
+  firstName = 'Andrew';
+  lastName = 'Kravchuk';
 }

@@ -1,0 +1,23 @@
+<p>characters-list</p>
+
+<table border="1">
+
+  <thead>
+    <tr>
+      <th>Character name</th>
+      <th>Gender</th>
+      <th>Number of episodes</th>
+      <th>Origin</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <tr *ngFor="let tempCharacter of charactersList">
+      <td>{{ tempCharacter.name }}</td>
+      <td>{{ tempCharacter.gender }}</td>
+      <td>{{ tempCharacter.numberOfEpisodes }}</td>
+      <td>{{ tempCharacter.origin }}</td>
+    </tr>
+
+  </tbody>
+</table>
